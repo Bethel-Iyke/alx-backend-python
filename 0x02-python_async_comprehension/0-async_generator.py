@@ -12,3 +12,4 @@ async def async_generator() -> Generator[int, None, None]:
     for i in range(10):
         await asyncio.sleep(1)
         yield random.uniform(0, 10)
+new_number = random.uniform(0, 10)
