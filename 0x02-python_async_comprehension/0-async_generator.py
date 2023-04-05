@@ -5,7 +5,7 @@ import asyncio
 from typing import Generator
 
 
-async def async_generator() -> Generator[int, None, None]:
+async def async_generator() -> Generator[float, None, None]:
     """
     loops 10times, each asynchronously wait 1 second and yeild random number
     """
